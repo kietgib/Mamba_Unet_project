@@ -1,0 +1,18 @@
+=> merge config from configs/vmamba_tiny.yaml
+---final upsample expand_first---
+Model loaded OK
+12 test cases
+
+=============================================
+       KET QUA TEST SYNAPSE
+=============================================
+Aorta          : Dice=0.3802 | HD95=88.54
+Gallbladder    : Dice=0.0833 | HD95=76.39
+Kidney(L)      : Dice=0.5086 | HD95=146.24
+Kidney(R)      : Dice=0.2565 | HD95=168.66
+Liver          : Dice=0.8740 | HD95=40.23
+Pancreas       : Dice=0.0917 | HD95=33.39
+Spleen         : Dice=0.6784 | HD95=154.09
+Stomach        : Dice=0.4608 | HD95=78.80
+---------------------------------------------
+MEAN           : Dice=0.4167 | HD95=98.29

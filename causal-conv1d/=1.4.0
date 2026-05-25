@@ -1,0 +1,68 @@
+Collecting causal-conv1d
+  Using cached causal_conv1d-1.6.2.post1-cp310-cp310-linux_x86_64.whl
+Collecting torch (from causal-conv1d)
+  Using cached torch-2.12.0-cp310-cp310-manylinux_2_28_x86_64.whl.metadata (31 kB)
+Requirement already satisfied: packaging in /home/nhutnt/miniconda3/envs/mamba/lib/python3.10/site-packages (from causal-conv1d) (26.0)
+Requirement already satisfied: ninja in /home/nhutnt/miniconda3/envs/mamba/lib/python3.10/site-packages (from causal-conv1d) (1.13.0)
+Requirement already satisfied: filelock in /home/nhutnt/miniconda3/envs/mamba/lib/python3.10/site-packages (from torch->causal-conv1d) (3.25.2)
+Requirement already satisfied: typing-extensions>=4.10.0 in /home/nhutnt/miniconda3/envs/mamba/lib/python3.10/site-packages (from torch->causal-conv1d) (4.15.0)
+Requirement already satisfied: setuptools<82 in /home/nhutnt/miniconda3/envs/mamba/lib/python3.10/site-packages (from torch->causal-conv1d) (69.5.1)
+Collecting sympy>=1.13.3 (from torch->causal-conv1d)
+  Using cached sympy-1.14.0-py3-none-any.whl.metadata (12 kB)
+Requirement already satisfied: networkx>=2.5.1 in /home/nhutnt/miniconda3/envs/mamba/lib/python3.10/site-packages (from torch->causal-conv1d) (3.4.2)
+Requirement already satisfied: jinja2 in /home/nhutnt/miniconda3/envs/mamba/lib/python3.10/site-packages (from torch->causal-conv1d) (3.1.6)
+Requirement already satisfied: fsspec>=0.8.5 in /home/nhutnt/miniconda3/envs/mamba/lib/python3.10/site-packages (from torch->causal-conv1d) (2026.2.0)
+Requirement already satisfied: cuda-toolkit==13.0.2 in /home/nhutnt/miniconda3/envs/mamba/lib/python3.10/site-packages (from cuda-toolkit[cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch->causal-conv1d) (13.0.2)
+Requirement already satisfied: nvidia-cublas<=13.1.1.3,>=13.1.0.3 in /home/nhutnt/miniconda3/envs/mamba/lib/python3.10/site-packages (from torch->causal-conv1d) (13.1.0.3)
+Requirement already satisfied: cuda-bindings<14,>=13.0.3 in /home/nhutnt/miniconda3/envs/mamba/lib/python3.10/site-packages (from torch->causal-conv1d) (13.2.0)
+Collecting nvidia-cudnn-cu13==9.20.0.48 (from torch->causal-conv1d)
+  Using cached nvidia_cudnn_cu13-9.20.0.48-py3-none-manylinux_2_27_x86_64.whl.metadata (1.9 kB)
+Collecting nvidia-cusparselt-cu13==0.8.1 (from torch->causal-conv1d)
+  Using cached nvidia_cusparselt_cu13-0.8.1-py3-none-manylinux2014_x86_64.whl.metadata (12 kB)
+Collecting nvidia-nccl-cu13==2.29.7 (from torch->causal-conv1d)
+  Using cached nvidia_nccl_cu13-2.29.7-py3-none-manylinux_2_18_x86_64.whl.metadata (2.1 kB)
+Requirement already satisfied: nvidia-nvshmem-cu13==3.4.5 in /home/nhutnt/miniconda3/envs/mamba/lib/python3.10/site-packages (from torch->causal-conv1d) (3.4.5)
+Collecting triton==3.7.0 (from torch->causal-conv1d)
+  Using cached triton-3.7.0-cp310-cp310-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (1.7 kB)
+Requirement already satisfied: nvidia-nvtx==13.0.85.* in /home/nhutnt/miniconda3/envs/mamba/lib/python3.10/site-packages (from cuda-toolkit[cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch->causal-conv1d) (13.0.85)
+Requirement already satisfied: nvidia-cuda-nvrtc==13.0.88.* in /home/nhutnt/miniconda3/envs/mamba/lib/python3.10/site-packages (from cuda-toolkit[cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch->causal-conv1d) (13.0.88)
+Requirement already satisfied: nvidia-cusolver==12.0.4.66.* in /home/nhutnt/miniconda3/envs/mamba/lib/python3.10/site-packages (from cuda-toolkit[cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch->causal-conv1d) (12.0.4.66)
+Requirement already satisfied: nvidia-cusparse==12.6.3.3.* in /home/nhutnt/miniconda3/envs/mamba/lib/python3.10/site-packages (from cuda-toolkit[cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch->causal-conv1d) (12.6.3.3)
+Requirement already satisfied: nvidia-cuda-runtime==13.0.96.* in /home/nhutnt/miniconda3/envs/mamba/lib/python3.10/site-packages (from cuda-toolkit[cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch->causal-conv1d) (13.0.96)
+Requirement already satisfied: nvidia-curand==10.4.0.35.* in /home/nhutnt/miniconda3/envs/mamba/lib/python3.10/site-packages (from cuda-toolkit[cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch->causal-conv1d) (10.4.0.35)
+Requirement already satisfied: nvidia-nvjitlink==13.0.88.* in /home/nhutnt/miniconda3/envs/mamba/lib/python3.10/site-packages (from cuda-toolkit[cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch->causal-conv1d) (13.0.88)
+Requirement already satisfied: nvidia-cufft==12.0.0.61.* in /home/nhutnt/miniconda3/envs/mamba/lib/python3.10/site-packages (from cuda-toolkit[cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch->causal-conv1d) (12.0.0.61)
+Requirement already satisfied: nvidia-cuda-cupti==13.0.85.* in /home/nhutnt/miniconda3/envs/mamba/lib/python3.10/site-packages (from cuda-toolkit[cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch->causal-conv1d) (13.0.85)
+Requirement already satisfied: nvidia-cufile==1.15.1.6.* in /home/nhutnt/miniconda3/envs/mamba/lib/python3.10/site-packages (from cuda-toolkit[cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch->causal-conv1d) (1.15.1.6)
+Requirement already satisfied: cuda-pathfinder~=1.1 in /home/nhutnt/miniconda3/envs/mamba/lib/python3.10/site-packages (from cuda-bindings<14,>=13.0.3->torch->causal-conv1d) (1.2.2)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in /home/nhutnt/miniconda3/envs/mamba/lib/python3.10/site-packages (from sympy>=1.13.3->torch->causal-conv1d) (1.3.0)
+Requirement already satisfied: MarkupSafe>=2.0 in /home/nhutnt/miniconda3/envs/mamba/lib/python3.10/site-packages (from jinja2->torch->causal-conv1d) (3.0.3)
+Using cached torch-2.12.0-cp310-cp310-manylinux_2_28_x86_64.whl (532.1 MB)
+Using cached nvidia_cudnn_cu13-9.20.0.48-py3-none-manylinux_2_27_x86_64.whl (366.2 MB)
+Using cached nvidia_cusparselt_cu13-0.8.1-py3-none-manylinux2014_x86_64.whl (170.1 MB)
+Using cached nvidia_nccl_cu13-2.29.7-py3-none-manylinux_2_18_x86_64.whl (206.0 MB)
+Using cached triton-3.7.0-cp310-cp310-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (201.3 MB)
+Using cached sympy-1.14.0-py3-none-any.whl (6.3 MB)
+Installing collected packages: nvidia-cusparselt-cu13, triton, sympy, nvidia-nccl-cu13, nvidia-cudnn-cu13, torch, causal-conv1d
+  Attempting uninstall: nvidia-cusparselt-cu13
+    Found existing installation: nvidia-cusparselt-cu13 0.8.0
+    Uninstalling nvidia-cusparselt-cu13-0.8.0:
+      Successfully uninstalled nvidia-cusparselt-cu13-0.8.0
+  Attempting uninstall: triton
+    Found existing installation: triton 3.1.0
+    Uninstalling triton-3.1.0:
+      Successfully uninstalled triton-3.1.0
+  Attempting uninstall: sympy
+    Found existing installation: sympy 1.13.1
+    Uninstalling sympy-1.13.1:
+      Successfully uninstalled sympy-1.13.1
+  Attempting uninstall: nvidia-nccl-cu13
+    Found existing installation: nvidia-nccl-cu13 2.28.9
+    Uninstalling nvidia-nccl-cu13-2.28.9:
+      Successfully uninstalled nvidia-nccl-cu13-2.28.9
+  Attempting uninstall: nvidia-cudnn-cu13
+    Found existing installation: nvidia-cudnn-cu13 9.19.0.56
+    Uninstalling nvidia-cudnn-cu13-9.19.0.56:
+      Successfully uninstalled nvidia-cudnn-cu13-9.19.0.56
+
+Successfully installed causal-conv1d-1.6.2.post1 nvidia-cudnn-cu13-9.20.0.48 nvidia-cusparselt-cu13-0.8.1 nvidia-nccl-cu13-2.29.7 sympy-1.14.0 torch-2.12.0 triton-3.7.0

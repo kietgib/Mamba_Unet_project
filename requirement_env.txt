@@ -1,0 +1,29 @@
+# --- LÕI PYTORCH CHUẨN ---
+torch==2.1.2
+torchvision==0.16.2
+torchaudio==2.1.2
+triton==2.1.0
+
+# --- LÕI MAMBA VÀ COMPILER  ---
+setuptools==69.5.1
+causal-conv1d==1.1.1
+mamba-ssm==1.1.1
+transformers==4.39.3
+
+# --- XỬ LÝ ẢNH & DỮ LIỆU Y TẾ ---
+numpy==1.26.4
+opencv-python-headless==4.8.0.74
+scikit-image==0.25.2
+h5py==3.16.0
+Pillow==12.1.0
+MedPy==0.5.2
+SimpleITK==2.5.5
+batchgenerators==0.25.2
+
+# --- KIẾN TRÚC MẠNG & HUẤN LUYỆN ---
+timm==0.4.12
+einops==0.8.2
+efficientnet_pytorch==0.7.1
+tensorboardX==2.6.5
+fvcore==0.1.5.post20221221 
+yacs==0.1.8

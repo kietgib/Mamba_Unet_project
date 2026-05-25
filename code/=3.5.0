@@ -1,0 +1,2 @@
+Requirement already satisfied: triton in /home/nhutnt/miniconda3/envs/mamba_env/lib/python3.10/site-packages (3.1.0)
+Requirement already satisfied: filelock in /home/nhutnt/miniconda3/envs/mamba_env/lib/python3.10/site-packages (from triton) (3.29.0)
